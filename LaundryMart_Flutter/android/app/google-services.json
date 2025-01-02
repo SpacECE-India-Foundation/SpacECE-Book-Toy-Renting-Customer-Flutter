@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "223619475159",
+    "project_id": "laundry-mart-1ad27",
+    "storage_bucket": "laundry-mart-1ad27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223619475159:android:cd5eb8972f7dd832fe7292",
+        "android_client_info": {
+          "package_name": "com.laundrymart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUFOLAUzstE7DWYlBO6Wa-RLVw_gn5x-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
