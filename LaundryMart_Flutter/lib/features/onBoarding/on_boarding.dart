@@ -29,21 +29,19 @@ class OnBoardingScreen extends ConsumerWidget {
     return ScreenWrapper(
       color: Theme.of(context).scaffoldBackgroundColor,
       child: Padding(
-        padding: EdgeInsets.only(top: 40.h, left: 20.w, right: 20.w),
+        padding: EdgeInsets.only(top: 20.h, left: 20.w, right: 20.w),
         child: Stack(
           children: [
             ListView(
               padding: EdgeInsets.zero,
               children: [
-                Hero(
-                  tag: 'logo',
-                  child: Image.asset(
-                    Theme.of(context).scaffoldBackgroundColor == AppColor.black
-                        ? "assets/images/png/logo_white.png"
-                        : "assets/images/png/logo_black.png",
-                    height: 120.h,
-                  ),
+                AppSpacerH(50.h),
+                Image.asset(
+                  "assets/images/png/logo.png",
+                  height: 90.h,
+                  width: 80.h,
                 ),
+                AppSpacerH(70.h),
                 AnimatedScale(
                   duration: transissionDuration,
                   scale: shouldAnimate ? 1 : 0,
@@ -113,16 +111,16 @@ class OnBoardingScreen extends ConsumerWidget {
 
 final List<ObSliderData> slideData = [
   ObSliderData(
-    image: 'assets/images/png/01.tutoral.png',
-    text: 'Order online or via our app',
+    image: 'assets/images/png/splash1.png',
+    text: 'Discover Engaging Activities',
   ),
   ObSliderData(
-    image: 'assets/images/png/02.tutorial.png',
-    text: 'We Collect at a time that suits you and work our magic',
+    image: 'assets/images/png/splash2.png',
+    text: 'Stay Organized with Our Schedule',
   ),
   ObSliderData(
-    image: 'assets/images/png/03.tutorial.png',
-    text: 'We return your clean clothes back to you',
+    image: 'assets/images/png/splash3.png',
+    text: 'Making Home Learning Fun and Easy!',
   ),
 ];
 

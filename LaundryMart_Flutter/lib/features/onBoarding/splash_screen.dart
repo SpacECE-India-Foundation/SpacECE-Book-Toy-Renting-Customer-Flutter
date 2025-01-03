@@ -170,8 +170,8 @@ class _SplashScreenState extends ConsumerState<SplashScreen>
                   Theme.of(context).scaffoldBackgroundColor == AppColor.black
                       ? "assets/images/png/logo_white.png"
                       : "assets/images/png/logo_black.png",
-                  height: 100.h,
-                  width: 195.w,
+                  height: 120.h,
+                  width: 150.w,
                 ),
               ),
             ),

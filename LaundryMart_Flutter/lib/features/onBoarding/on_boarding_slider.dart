@@ -60,11 +60,11 @@ class OnBoadringTextSlider extends StatelessWidget {
                   (e) => Text(e.text,
                       textAlign: TextAlign.center,
                       style: AppTextStyle(context)
-                          .bodyText
+                          .bodyTextH1
                           .copyWith(fontWeight: FontWeight.w700)
                       //  AppTextDecor.bold12Black.copyWith(
                       //   color: AppStaticColor.black,
-                      //   fontSize: 16.sp,
+
                       // ),
                       ),
                 )

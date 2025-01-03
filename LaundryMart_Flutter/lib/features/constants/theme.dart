@@ -8,9 +8,9 @@ ThemeData getAppTheme(
   return ThemeData(
     extensions: <ThemeExtension<AppColors>>[
       AppColors(
-        primaryColor: AppColor.blue,
-        accentColor: AppColor.blue,
-        buttonColor: AppColor.blue,
+        primaryColor: AppColor.yellow,
+        accentColor: AppColor.yellow,
+        buttonColor: AppColor.yellow,
         buttonTextColor: AppColor.white,
         bodyTextColor: isDarkTheme ? AppColor.offWhite : AppColor.black,
         bodyTextSmallColor: isDarkTheme ? AppColor.offWhite : AppColor.gray,
@@ -19,7 +19,7 @@ ThemeData getAppTheme(
       ),
     ],
     fontFamily: 'Roboto',
-    unselectedWidgetColor: isDarkTheme ? AppColor.blue : AppColor.gray,
+    unselectedWidgetColor: isDarkTheme ? AppColor.yellow : AppColor.gray,
     scaffoldBackgroundColor: isDarkTheme ? AppColor.black : AppColor.offWhite,
     appBarTheme: AppBarTheme(
       backgroundColor: isDarkTheme ? AppColor.black : AppColor.white,

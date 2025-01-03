@@ -31,7 +31,7 @@ class AppInputDecor {
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(4),
           borderSide: BorderSide(
-            color: colors(context).primaryColor ?? AppColor.blue,
+            color: colors(context).primaryColor ?? AppColor.yellow,
           ),
         ),
         errorBorder: OutlineInputBorder(
@@ -65,7 +65,7 @@ class AppInputDecor {
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(4),
           borderSide: BorderSide(
-            color: colors(context).primaryColor ?? AppColor.blue,
+            color: colors(context).primaryColor ?? AppColor.yellow,
           ),
         ),
         errorBorder: OutlineInputBorder(

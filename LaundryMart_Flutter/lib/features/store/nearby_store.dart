@@ -92,7 +92,7 @@ class _NearbyStoreSScreenState extends ConsumerState<NearbyStoreScreen> {
                     children: [
                       const Icon(
                         Icons.location_on_sharp,
-                        color: AppColor.blue,
+                        color: AppColor.yellow,
                         size: 20,
                       ),
                       AppSpacerW(4.w),

@@ -66,11 +66,15 @@ class AppColors extends ThemeExtension<AppColors> {
 
 class AppColor {
   AppColor._();
-  static const Color blue = Color(0xFF39D8D8);
+  static const Color blue = Color(0xFFF8A800);
   static const Color white = Color(0xFFFFFFFF);
   static const Color offWhite = Color(0xFFF3F4F6);
   static const Color black = Color(0xFF111827);
   static const Color red = Color(0xFFFF4141);
   static const Color green = Color(0xFF3BD804);
   static const Color gray = Color(0xFF6B7280);
+
+  //primary color for spaceEce Color(0xFFFFA500)
+  static const Color yellow = Color(0xFFF8A800);
+
 }
